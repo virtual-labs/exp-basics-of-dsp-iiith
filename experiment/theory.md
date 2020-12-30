@@ -1,9 +1,7 @@
-### Link your theory in here
-
 Discretization of a continuous-time signal (sampling and aliasing)
 
 Consider a continous-time signal \(x_c(t)\) whose Fourier transform is \(X_c(\Omega)\). Then $$ x_c(t)=\frac{1}{2\pi}\int\limits_{-\infty}^{\infty} X_c(\Omega) e^{j \Omega t} d\Omega \qquad(1)$$ and $$ X_c(\Omega)=\int\limits_{-\infty}^{\infty} x_c(t) e^{-j \Omega t} dt \qquad(2)$$ A discrete-time signal \(x_d(n)\) can be obtained by uniformly sampling the continuous-time signal \(x_c(t)\) at discrete intervals \(nT\) where T is called the sampling period and n is an integer. Consider a unit impulse function \(\delta(t)\), whose value is \(1\) at \(t=0\) and \(0\) elsewhere. Then the unit impulse sequence can be expressed as $$ s(t) = \sum\limits_{n=-\infty}^{\infty} \delta(t-nT), \qquad(3) $$ and \(x_d(n)\) can be expressed as \begin{eqnarray} x_d(n) & = & x_c(t) s(t) \qquad(4) \\ & = & x_c(t) \sum\limits_{n=-\infty}^{\infty} \delta(t-nT) \qquad(5)\\ & = & \sum\limits_{n=-\infty}^{\infty} x_c(nT) \delta(t-nT). \qquad(6) \end{eqnarray}
-
+ <center><img src="images/sig.png"> <br></p> </center>
 Signal 	Impulse train
 (a)
 	
@@ -29,14 +27,17 @@ Oversampled 	Undersampled
 (c)
 	
 (d)
+ <center><img src="images/dtspectOs.png"> <br></p> </center>
 Figure 2: Fourier transform of (a) Bandlimited signal and (b) Impulse train. Discrete time Fourier transform of (c) Oversampled signal (\(Fs>2B\)) (d) Undersampled signal (\(Fs \lt 2B\)).
 Nyquist
+ <center><img src="images/dtspectNq.png"> <br></p> </center>
 Figure 3: Discrete time Fourier transform of signal sampled at Nyquist frequency (\(Fs=2B\)).
 
 Digitization of a discrete-time signal - Quantization and quantization error
 
 A discrete-time signal obtained through sampling is still a continuous amplitude time sequence, where each sample value has an infinite precision. But digital computers are finite precision machines and hence there is a need to discretize and limit the range of sample values. This is achieved by quantization (more accurately scalar quantization). In the quantization process, each sampled value of a discrete-time signal is compared against a finite set of amplitude values and assigned a value in the set that is closest to the discrete-time value. The number of elements in the finite set is determined by the precision of the digital system. In an 8-bit system, there are \(2^8 =256\) elements in the set. The number of elements in the the finite set is referred as the number of quantization levels. If the difference in values of adjacent elements in the ordered set is constant, then the quantizer is referred as an uniform linear quantizer. Figure 4 shows the effect of quantizing a line using a 3-bit quantizer.
 Quantizer
+ <center><img src="images/quantizer.png"> <br></p> </center>
 Figure 4: Quantization of a linear segment of an analog signal.
 
 Since the digital signal is obtained by quantizing the continuous valued discrete-time signal, there is an error introduced in representation of the signal. If the discrete-time signal \(x_d(n)\) has a limited amplitude range i.e., \(|x_d(n)|\leq A_\mbox{max}\), the quantization step for a B-bit uniform quantizer is given by $$ Q_s = \frac{2A_{max}}{2^B} \qquad(11) $$ The maximum quantization error introduced by a B-bit uniform quantizer is given by \begin{eqnarray} Q_{e_{max}} & = & \frac{Q_s}{2} \qquad(12)\\ Q_{e_{max}} & = & \frac{A_\mbox{max}}{2^B} \qquad(13) \end{eqnarray} Hence the quantization error for each sample \(e(n)\) is defined as $$ e(n) = x_d(n)-x_D(n), \qquad(14) $$ where \(x_d(n)\) is the discrete-time infinite precision sampled value of the continuous-time signal \(x(t)\), and \(x_D(n)\) is the finite precision digitized (sampled and quantized) sample value. The quantization error at each sample lies within the range $$ -Q_{e_{max}} \leq e(n) \leq Q_{e_{max}}. \qquad (15) $$
@@ -46,12 +47,15 @@ A resonator is an all-pole system. The transfer function of an all-pole system \
 
 For example, the magnitude response of an all-pole system \(H(z)\) with resonant frequency \(F_i\) = 1000 Hz,\(B_i\) = 100 Hz and \(F_s\) = 8000 Hz is shown in Figure 5. The impulse response is a samped sinusoidal signal. The damping depends on the bandwidth of the pole of the system.
 Quantizer
+ <center><img src="images/Fig1.png"> <br></p> </center>
 Figure 5: Impulse response and magnitude response.
 
 Consider a train of impulse sequence, \(I(nT_0)\), with each impulse located at integer multiples of \(T_0\) (\(T_0 \gt\gt T\)) as shown in Figure 6. The output resonance of the system \(O(nT)\) is shown in Figure 7. The output signal is periodic with fundamental period (\(T_0\)) (from which the fundamental frequency is obtained as \(F_0 = \frac{1}{T_0}\)) is shown in Figure 7.
 Quantizer
+ <center><img src="images/Fig3.png"> <br></p> </center>
 Figure 6: Train of impulse sequence.
 Quantizer
+ <center><img src="images/Fig3.png"> <br></p> </center>
 Figure 7: Output resonance of the system.
 
 

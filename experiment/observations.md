@@ -1,5 +1,3 @@
-### Observations
-
 - The quality of speech is directly proportional to the number of quantization levels ( that is, number of bits used for quantization).Though quantization results in loss of information the human perception mechanism can still get the information present in the speech signal.
 
 
