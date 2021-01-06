@@ -1,6 +1,6 @@
 
 ### Sampling and quantization effect
-#### 1: Sampling
+#### Sampling :
 
    Step1: Select one of the 'Sampling Frequency','Bits/Sample Depth' and 'Language' click on the 'Generate Spectrum' button.
 
@@ -8,7 +8,7 @@
 
    Step3: Change the sampling frequency to 8000 Hz and listen to the utterance. Perceive the change in quality of speech between 24 kHz and 16 kHz, by repeatedly switching between 24 kHz and 16 kHz.
 
-#### 2: Quantization effect
+#### Quantization effect :
 
    Step1: Select back the sampling frequency of 16 kHz.
 
