@@ -1,0 +1,150 @@
+
+/home/runner/work/exp-basics-of-dsp-iiith/exp-basics-of-dsp-iiith/experiment/simulation/static/js/Experiment.js
+   4:10  warning  'zoom' is defined but never used          no-unused-vars
+   5:3   warning  'wavesurfer' is not defined               no-undef
+   9:10  warning  'playButton' is defined but never used    no-unused-vars
+  10:3   warning  'wavesurfer' is not defined               no-undef
+  15:40  warning  'fin' is defined but never used           no-unused-vars
+  17:10  warning  'loadExpFrame' is defined but never used  no-unused-vars
+  30:21  warning  'WaveSurfer' is not defined               no-undef
+  40:13  warning  'wavesurfer' is not defined               no-undef
+  42:32  warning  'WaveSurfer' is not defined               no-undef
+
+/home/runner/work/exp-basics-of-dsp-iiith/exp-basics-of-dsp-iiith/experiment/simulation/static/js/bootstrap.js
+    17:3  warning  'jQuery' is not defined                                     no-undef
+    77:3  warning  'jQuery' is not defined                                     no-undef
+   172:3  warning  'jQuery' is not defined                                     no-undef
+   293:3  warning  'jQuery' is not defined                                     no-undef
+   531:3  warning  'jQuery' is not defined                                     no-undef
+   661:7  warning  Unexpected newline between object and [ of property access  no-unexpected-multiline
+   743:3  warning  'jQuery' is not defined                                     no-undef
+   909:3  warning  'jQuery' is not defined                                     no-undef
+  1247:3  warning  'jQuery' is not defined                                     no-undef
+  1762:3  warning  'jQuery' is not defined                                     no-undef
+  1871:3  warning  'jQuery' is not defined                                     no-undef
+  2044:3  warning  'jQuery' is not defined                                     no-undef
+  2200:3  warning  'jQuery' is not defined                                     no-undef
+  2363:3  warning  'jQuery' is not defined                                     no-undef
+
+/home/runner/work/exp-basics-of-dsp-iiith/exp-basics-of-dsp-iiith/experiment/simulation/static/js/bootstrap.min.js
+  6:285    warning  'jQuery' is not defined                 no-undef
+  6:1041   warning  'jQuery' is not defined                 no-undef
+  6:1975   warning  'jQuery' is not defined                 no-undef
+  6:3839   warning  'jQuery' is not defined                 no-undef
+  6:7882   warning  'jQuery' is not defined                 no-undef
+  6:11250  warning  'jQuery' is not defined                 no-undef
+  6:13595  warning  'jQuery' is not defined                 no-undef
+  6:19576  warning  'jQuery' is not defined                 no-undef
+  6:27121  warning  'a' is assigned a value but never used  no-unused-vars
+  6:28444  warning  'jQuery' is not defined                 no-undef
+  6:30033  warning  'jQuery' is not defined                 no-undef
+  7:416    warning  'jQuery' is not defined                 no-undef
+  7:2236   warning  'jQuery' is not defined                 no-undef
+  7:4649   warning  'jQuery' is not defined                 no-undef
+
+/home/runner/work/exp-basics-of-dsp-iiith/exp-basics-of-dsp-iiith/experiment/simulation/static/js/custom.js
+   8:1   warning  '$' is not defined  no-undef
+   9:5   warning  '$' is not defined  no-undef
+  10:23  warning  '$' is not defined  no-undef
+  11:9   warning  '$' is not defined  no-undef
+  12:24  warning  '$' is not defined  no-undef
+  19:1   warning  '$' is not defined  no-undef
+  20:5   warning  '$' is not defined  no-undef
+  21:9   warning  '$' is not defined  no-undef
+  21:72  warning  '$' is not defined  no-undef
+  23:9   warning  '$' is not defined  no-undef
+  25:9   warning  '$' is not defined  no-undef
+  30:1   warning  '$' is not defined  no-undef
+  35:1   warning  '$' is not defined  no-undef
+  36:5   warning  '$' is not defined  no-undef
+
+/home/runner/work/exp-basics-of-dsp-iiith/exp-basics-of-dsp-iiith/experiment/simulation/static/js/exp-08.js
+   1:18  warning  'WaveSurfer' is not defined                 no-undef
+  11:10  warning  'clearcontent' is defined but never used    no-unused-vars
+  16:32  warning  'WaveSurfer' is not defined                 no-undef
+  24:10  warning  'LoadExperiment' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-basics-of-dsp-iiith/exp-basics-of-dsp-iiith/experiment/simulation/static/js/jquery.js
+  2:58     warning  'module' is not defined                                                    no-undef
+  2:73     warning  'module' is not defined                                                    no-undef
+  2:6372   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6583   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6598   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:7074   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:7306   warning  Empty block statement                                                      no-empty
+  2:7871   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9868   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11292  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11888  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11926  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12330  warning  Empty block statement                                                      no-empty
+  2:12893  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13205  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15004  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15242  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15390  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15728  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:16409  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18795  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18884  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18944  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:20204  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:20779  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:20887  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:22906  warning  Unnecessary escape character: \[                                           no-useless-escape
+  2:22908  warning  Unnecessary escape character: \.                                           no-useless-escape
+  2:30599  warning  Empty block statement                                                      no-empty
+  2:31841  warning  Empty block statement                                                      no-empty
+  3:4837   warning  Empty block statement                                                      no-empty
+  3:7838   warning  Empty block statement                                                      no-empty
+  3:10458  warning  Empty block statement                                                      no-empty
+  3:19747  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:19874  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:22019  warning  Empty block statement                                                      no-empty
+  3:26143  warning  Move function declaration to function body root                            no-inner-declarations
+  3:29909  warning  Empty block statement                                                      no-empty
+  4:1882   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:4336   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:10429  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:12325  warning  Empty block statement                                                      no-empty
+  4:13624  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:14068  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:14482  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:15585  warning  Unnecessary escape character: \/                                           no-useless-escape
+  4:16076  warning  'ActiveXObject' is not defined                                             no-undef
+  4:16460  warning  Unnecessary escape character: \/                                           no-useless-escape
+  4:16472  warning  Unnecessary escape character: \/                                           no-useless-escape
+  4:16771  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:19260  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:21151  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:26098  warning  Empty block statement                                                      no-empty
+  4:26175  warning  Empty block statement                                                      no-empty
+  4:31348  warning  'define' is not defined                                                    no-undef
+  4:31360  warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-basics-of-dsp-iiith/exp-basics-of-dsp-iiith/experiment/simulation/static/js/npm.js
+   2:1  warning  'require' is not defined  no-undef
+   3:1  warning  'require' is not defined  no-undef
+   4:1  warning  'require' is not defined  no-undef
+   5:1  warning  'require' is not defined  no-undef
+   6:1  warning  'require' is not defined  no-undef
+   7:1  warning  'require' is not defined  no-undef
+   8:1  warning  'require' is not defined  no-undef
+   9:1  warning  'require' is not defined  no-undef
+  10:1  warning  'require' is not defined  no-undef
+  11:1  warning  'require' is not defined  no-undef
+  12:1  warning  'require' is not defined  no-undef
+  13:1  warning  'require' is not defined  no-undef
+
+/home/runner/work/exp-basics-of-dsp-iiith/exp-basics-of-dsp-iiith/experiment/simulation/static/vendors/owl-carousel/owl.carousel.js
+  12:10  warning  'dragMove' is defined but never used                                       no-unused-vars
+  12:27  warning  'dragEnd' is defined but never used                                        no-unused-vars
+  12:43  warning  '$' is defined but never used                                              no-unused-vars
+  12:54  warning  'alert' is already defined as a built-in global variable                   no-redeclare
+  12:54  warning  'alert' is defined but never used                                          no-unused-vars
+  12:61  warning  'window' is already defined as a built-in global variable                  no-redeclare
+  12:69  warning  'document' is already defined as a built-in global variable                no-redeclare
+  44:38  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+
+✖ 131 problems (0 errors, 131 warnings)
+
